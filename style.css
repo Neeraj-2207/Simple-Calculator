@@ -78,7 +78,7 @@ h1{
 }
 @media (max-width: 320px) {
     .display, .buttons {
-        width: 98vw;
+        width: 90vw;
         max-width: 100vw;
     }
 }
