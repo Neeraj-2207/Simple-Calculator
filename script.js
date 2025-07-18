@@ -19,4 +19,10 @@ function clearDisplay() {
     displayCalculation();
     localStorage.setItem('calculation', calculation);
 }
+function backspace() {
+    calculation = calculation.slice(0, -1);
+    displayCalculation();
+    localStorage.setItem('calculation', calculation);
+}
+
 
